@@ -75,6 +75,7 @@ $conn = $dbase->connect();
                 echo '<td><a href="#editarUsuario" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#eliminarUsuario" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a></td>';
                 echo "</tr>";
+				echo "<br>";
             }
         } else {
             echo "<tr><td colspan='4'>No hay usuarios registrados.</td></tr>";
