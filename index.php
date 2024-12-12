@@ -78,7 +78,7 @@ $conn = $dbase->connect();
             }
         } else {
             echo "<tr><td colspan='4'>No hay usuarios registrados.</td></tr>";
-			echo "<br>"
+			echo "<br>";
         }
         ?>
 					</tr> 
